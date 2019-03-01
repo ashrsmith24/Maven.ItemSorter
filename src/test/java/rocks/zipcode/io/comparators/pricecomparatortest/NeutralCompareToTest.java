@@ -15,7 +15,7 @@ public class NeutralCompareToTest {
     public void test1() {
         // given
         Double itemPrice = 10.0;
-        Comparator<Item> nameComparator = (Comparator<Item>)new PriceComparator();
+        Comparator<Item> nameComparator = (Comparator<Item>) new PriceComparator();
         Item item1 = new Item(null, null, itemPrice);
         Item item2 = new Item(null, null, itemPrice);
 
@@ -30,7 +30,7 @@ public class NeutralCompareToTest {
     public void test2() {
         // given
         Double itemPrice = 15.0;
-        Comparator<Item> nameComparator = (Comparator<Item>)new PriceComparator();
+        Comparator<Item> nameComparator = (Comparator<Item>) new PriceComparator();
         Item item1 = new Item(null, null, itemPrice);
         Item item2 = new Item(null, null, itemPrice);
 
@@ -45,7 +45,7 @@ public class NeutralCompareToTest {
     public void test3() {
         // given
         Double itemPrice = 94.0;
-        Comparator<Item> nameComparator = (Comparator<Item>)new PriceComparator();
+        Comparator<Item> nameComparator = (Comparator<Item>) new PriceComparator();
         Item item1 = new Item(null, null, itemPrice);
         Item item2 = new Item(null, null, itemPrice);
 

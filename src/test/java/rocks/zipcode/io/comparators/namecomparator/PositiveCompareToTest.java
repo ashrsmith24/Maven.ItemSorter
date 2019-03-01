@@ -14,7 +14,7 @@ public class PositiveCompareToTest {
     @Test
     public void test1() {
         // given
-        Comparator<Item> nameComparator = (Comparator<Item>)new NameComparator();
+        Comparator<Item> nameComparator = (Comparator<Item>) new NameComparator();
         Item item1 = new Item(null, "Apple", null);
         Item item2 = new Item(null, "Banana", null);
 
@@ -28,7 +28,7 @@ public class PositiveCompareToTest {
     @Test
     public void test2() {
         // given
-        Comparator<Item>nameComparator = (Comparator<Item>)new NameComparator();
+        Comparator<Item> nameComparator = (Comparator<Item>) new NameComparator();
         Item item1 = new Item(null, "Banana", null);
         Item item2 = new Item(null, "Wild Cherry", null);
 
@@ -43,7 +43,7 @@ public class PositiveCompareToTest {
     @Test
     public void test3() {
         // given
-        Comparator<Item>nameComparator = (Comparator<Item>)new NameComparator();
+        Comparator<Item> nameComparator = (Comparator<Item>) new NameComparator();
         Item item1 = new Item(null, "Plums", null);
         Item item2 = new Item(null, "Pumpkin", null);
 
@@ -57,7 +57,7 @@ public class PositiveCompareToTest {
     @Test
     public void test4() {
         // given
-        Comparator<Item>nameComparator = (Comparator<Item>)new NameComparator();
+        Comparator<Item> nameComparator = (Comparator<Item>) new NameComparator();
         Item item1 = new Item(null, "Banana", null);
         Item item2 = new Item(null, "apple", null);
 
@@ -71,7 +71,7 @@ public class PositiveCompareToTest {
     @Test
     public void test5() {
         // given
-        Comparator<Item>nameComparator = (Comparator<Item>)new NameComparator();
+        Comparator<Item> nameComparator = (Comparator<Item>) new NameComparator();
         Item item1 = new Item(null, "Banana", null);
         Item item2 = new Item(null, "wild Cherry", null);
 
@@ -86,7 +86,7 @@ public class PositiveCompareToTest {
     @Test
     public void test6() {
         // given
-        Comparator<Item>nameComparator = (Comparator<Item>)new NameComparator();
+        Comparator<Item> nameComparator = (Comparator<Item>) new NameComparator();
         Item item1 = new Item(null, "Plums", null);
         Item item2 = new Item(null, "pumpkin", null);
 
